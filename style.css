@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: #000;
+    background-color: #00111A;
     color: #fff;
     overflow: hidden;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar {
-    background-color: #000;
+    background-color: #00111A;
     width: 280px;
     border-radius: 1rem; /*16px */
     margin-right: 0.5rem;
@@ -21,7 +21,7 @@ body {
 }
 
 .main-content {
-    background-color: #121212;
+    background-color: #001824;
     flex: 1;
     border-radius: 1rem;
     overflow: auto; 
@@ -29,7 +29,7 @@ body {
 }
 
 .music-player {
-    background-color: #121212;
+    background-color: #001824;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -42,7 +42,7 @@ a {
 }
 
 .nav {
-    background-color: #121212;
+    background-color: #001824;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ a {
 }
 
 .library {
-    background-color: #121212;
+    background-color: #001824;
     border-radius: 1rem;
     height: 100%;
     margin-top: 0.5rem;
@@ -115,7 +115,7 @@ a {
 
 .box {
     height: 8rem;
-    background-color: #232323;
+    background-color: #001b29;
     border-radius: 0.75rem;
     margin: 0.75rem 0 1.75rem 0;
     padding: 0.5rem 1rem;
@@ -143,14 +143,14 @@ a {
 }
 
 .dark-badge {
-    background-color: #000;
+    background-color: #00111A;
     color: #fff;
 }
 
 .sticky-nav {
     position: sticky;
     top: 0;
-    background-color: #121212;
+    background-color: #001824;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,18 +188,19 @@ a {
 }
 
 .card {
-    background-color: #232323;
-    width: 170px;
+    background-color: #001b29;
+    width: 175px;
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
     transition: opacity 0.2s ease, background-color 0.2s ease;
+    background: linear-gradient(45deg, #002234, #001b20);
 }
 
 .card:hover {
-    opacity: 0.8;
-    background-color: rgba(211, 211, 211, 0.472);
+    opacity: 0.5;
+    background-color: rgba(211, 211, 211, 0.508);
 }
 
 .cards-container {
