@@ -27,7 +27,8 @@
             <div class="library">
                 <div class="options">
                     <div class="lib-options nav-option">
-                        <img src="./assets/library_icon.png">                        <a href ="#">Your Library</a>                    
+                        <img src="./assets/library_icon.png">                        
+                        <a href ="#">Your Library</a>                    
                     </div>
                     <div class="icons">
                         <i class="fa-solid fa-plus"></i>
@@ -42,7 +43,6 @@
                     </div>
                     <div class="box">
                         <p class="box-p1">Let's find some podcast to follow</p>
-                        <p class="box-p2">We'll keep you updated on new episodes</p>
                         <button class="badge">Browse podcasts</button>
                     </div>
                 </div>
@@ -62,74 +62,70 @@
                 </div>
             </div> 
 
-                <h2>Recently Played</h2>
+                <h2 class="headings"><a href="#">Jump back in</a></h2>
                 <div class="cards-container">
                     <div class="card">
-                        <img class="card-img" src="./assets/card1img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
+                        <img class="card-img" src="./assets/red.jpg" alt="">
+                        <p class="card-title">Red (Taylor's Version)</p>
+                        <p class="card-info">Taylor Swift</p>
                     </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/midnights.jpg" alt="">
+                        <p class="card-title">Midnights</p>
+                        <p class="card-info">Taylor Swift</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/evermore.jpg" alt="">
+                        <p class="card-title">evermore</p>
+                        <p class="card-info">Taylor Swift</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/lover.jpg.png" alt="">
+                        <p class="card-title">Lover</p>
+                        <p class="card-info">Taylor Swift</p>
+                    </div>
+
+                    
+
                 </div>
 
-                <h2>Trending now near you</h2>
-                <div class="cards-container">
-                    <div class="card">
-                        <img class="card-img" src="./assets/card2img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
-                    </div>
-
-                    <div class="card">
-                        <img class="card-img" src="./assets/card3img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
-                    </div>
-
-                    <div class="card">
-                        <img class="card-img" src="./assets/card4img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
-                    </div>
-
-                    <div class="card">
-                        <img class="card-img" src="./assets/card3img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
-                    </div>
-
-                    <div class="card">
-                        <img class="card-img" src="./assets/card4img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
-                    </div>
-
-                    <div class="card">
-                        <img class="card-img" src="./assets/card3img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
-                    </div>
-                </div>
-
-                    <h2>Featured Charts</h2>
+                    <h2 class="headings">Featured Charts</h2>
                     <div class="cards-container">
                     <div class="card">
                         <img class="card-img" src="./assets/card5img.jpeg" alt="">
                         <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
+                        <p class="card-info">Listen to top songs in the world ...</p>
                     </div>
 
                     <div class="card">
                         <img class="card-img" src="./assets/card6img.jpeg" alt="">
                         <p class="card-title">Top Songs - India</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
+                        <p class="card-info">India's favorites right now</p>
                     </div>
                     
                     <div class="card">
                         <img class="card-img" src="./assets/card1img.jpeg" alt="">
                         <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates of the most played ...</p>
+                        <p class="card-info">Most played globally</p>
                     </div>
-                </div> 
+                </div>
+
+                <h2 class="headings">Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/passenger.jpg" alt="">
+                        <p class="card-title">Songs for the Drunk and Broken Hearted</p>
+                        <p class="card-info">Passenger</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/repeat.jpg" alt="">
+                        <p class="card-title">Repeat Rewind</p>
+                        <p class="card-info">Your past favorites</p>
+                    </div>
+                </div>
 
                 <div class="footer">
                     <div class="line">
@@ -139,9 +135,17 @@
 
 
         <div class="music-player">
-         <div class="album">
-            <!-- <img src="assets/album_img.jpg" alt=""> -->
-         </div>
+
+         <div class="album-art">
+            <img src="assets/album_img.jpg" alt="Album Cover">
+        </div>
+        <div class="song-info">
+            <p class="song-title">august</p>
+            <p class="artist">Taylor Swift</p>
+        </div>
+        <div class="player-icons">
+            <i class="fa-regular fa-heart control-button"></i>
+        </div>
 
          <div class="player">
             <div class="player-controls">
@@ -160,7 +164,16 @@
          </div>
 
          <div class="controls">
+            <div class="player-icons">
+                <i class="fa-solid fa-play control-button"></i>
+                <i class="fa-solid fa-microphone control-button"></i>
+                <i class="fa-solid fa-grip-lines control-button"></i>
+                <i class="fa-solid fa-mobile-screen-button control-button"></i>
+                <i class="fa-solid fa-volume-high control-button"></i>
+                <input type="range" min="0" max="100" class="volume-bar" step="1">
+                <i class="fa-solid fa-laptop control-button"></i>
 
+            </div>
          </div>
         </div>
 
