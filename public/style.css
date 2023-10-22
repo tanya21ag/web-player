@@ -356,7 +356,7 @@ a {
 }
 
 .footer {
-    height: 400px;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -366,8 +366,9 @@ a {
 .line {
     width: 90%;
     height: 30%;
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
     opacity: 0.4;
+    margin-bottom: 2rem;
 }
 
 .music-player {
