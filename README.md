@@ -1,5 +1,7 @@
 # web-player
-<p>Swiftify is a Spotify themed web player built using HTML, CSS, and JavaScript. This music player contains the complete discography of the musician, Taylor Swift, including fan-created playlists. </p>
+<p>Swiftify is a Spotify themed web player built using HTML, CSS, and JavaScript. 
+  
+This music player contains the complete owned-by-her discography of the musician, Taylor Swift, including fan-created playlists. </p>
 
 ## screenshots
 ![1](https://github.com/tanya21ag/web-player/assets/127618645/67284985-ce0c-46e3-940d-c2704e10ed06)
