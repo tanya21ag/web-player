@@ -185,19 +185,17 @@ a {
 }
 
 .recent-title {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: bold;
     margin: 0;
     margin-bottom: 0.25rem;
 }
 
 .recent-artist {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     margin: 0;
     opacity: 0.7;
 }
-
-
 
 
 .sticky-nav {
