@@ -15,6 +15,7 @@
     <div class="main">
         <div class="sidebar">
             <div class="nav">
+
                 <div class="nav-option" style="opacity:1;">
                     <i class="fa-solid fa-house"></i>
                     <a href ="#" >Home</a>                    
@@ -41,7 +42,6 @@
                         <p class="box-p2">It's easy, we'll help you</p>
                         <button class="badge">Create playlist</button>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -49,17 +49,25 @@
         <div class="main-content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                    <img src="./assets/backward_icon.png"> &nbsp;&nbsp;
-                    <img src="./assets/forward_icon.png" class="hide">
+
+                    <div class="icon-wrapper">
+                        <img src="./assets/backward_icon.png" class="icon icon-first">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./assets/forward_icon.png" class="icon icon-second">
+                    </div>
                 </div>
+
+
                 <div class="sticky-nav-options">
-                    <button class="badge nav-item hide">Explore</button>
-                    <button class="badge nav-item hide">About</button>
-                <i class="fa-regular fa-user nav-item"></i>
+                    <p class="badge nav-item hide">FAQ</p>
+                    <p class="badge nav-item hide">Explore</p>
+                    <p class="badge nav-item hide" style="margin-right: 3rem;">About</p>
+                    <i class="fa-regular fa-user nav-item"></i>
                 </div>
             </div> 
 
-                <h2 class="headings"><a href="#">Recently Played</a></h2>
+                <h2 class="headings"><a href="#">Jump back in</a></h2>
                 <div class="cards-container">
                     <div class="card">
                         <img class="card-img" src="./assets/red.jpg" alt="">
@@ -89,39 +97,69 @@
 
                 </div>
 
-                    <h2 class="headings">Featured Charts</h2>
+                    <h2 class="headings">Playlists by Swifties</h2>
                     <div class="cards-container">
                     <div class="card">
-                        <img class="card-img" src="./assets/card5img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Listen to top songs in the world ...</p>
+                        <img class="card-img" src="./assets/pl6.jpg" alt="">
+                        <p class="card-title">Mother is mothering</p>
+                        <p class="card-info">'Cause, darling, I'm a nightmare dressed...
+                        </p>
                     </div>
 
                     <div class="card">
-                        <img class="card-img" src="./assets/card6img.jpeg" alt="">
-                        <p class="card-title">Top Songs - India</p>
-                        <p class="card-info">India's favorites right now</p>
+                        <img class="card-img" src="./assets/pl2.jpg" alt="">
+                        <p class="card-title">Legendary behavior</p>
+                        <p class="card-info">Taylor Swift</p>
                     </div>
                     
                     <div class="card">
-                        <img class="card-img" src="./assets/card1img.jpeg" alt="">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Most played globally</p>
+                        <img class="card-img" src="./assets/pl3.jpg" alt="">
+                        <p class="card-title">Taylor Swift</p>
+                        <p class="card-info">Best Pop Songs</p>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img" src="./assets/pl7.jpg" alt="">
+                        <p class="card-title">The Eras Tour</p>
+                        <p class="card-info">Live from The Eras Tour</p>
                     </div>
                 </div>
 
-                <h2 class="headings">Made for you</h2>
+                <h2 class="headings">Charts</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img class="card-img" src="./assets/mix2.jpg" alt="">
+                            <p class="card-title">Today's Top Hits</p>
+                            <p class="card-info">Today's top Taylor Swift songs globally</p>
+                        </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/pl9.jpg" alt="">
+                        <p class="card-title"> Complete Collection</p>
+                        <p class="card-info">All of Taylor-owned music</p>
+                    </div>
+                    </div>
+
+                <h2 class="headings">Based on your recent listening</h2>
                 <div class="cards-container">
                     <div class="card">
-                        <img class="card-img" src="./assets/passenger.jpg" alt="">
-                        <p class="card-title">Songs for the Drunk and Broken Hearted</p>
-                        <p class="card-info">Passenger</p>
+                        <img class="card-img" src="./assets/mix1.jpg" alt="">
+                        <p class="card-title">Taylor Swift Mix</p>
+                        <p class="card-info">Your most listened songs</p>
                     </div>
+                    
+                    <div class="card">
+                        <img class="card-img" src="./assets/pl0.jpg" alt="">
+                        <p class="card-title">Best From The Vault</p>
+                        <p class="card-info">Top Vault Tracks</p>
+                    </div>
+
                     <div class="card">
                         <img class="card-img" src="./assets/repeat.jpg" alt="">
                         <p class="card-title">Repeat Rewind</p>
                         <p class="card-info">Your past favorites</p>
                     </div>
+
+                    
                 </div>
 
                 <div class="footer">
@@ -132,7 +170,6 @@
 
 
         <div class="music-player">
-
          <div class="album-art">
             <img src="assets/album_img.jpg" alt="Album Cover">
         </div>
@@ -141,8 +178,9 @@
             <p class="artist">Taylor Swift</p>
         </div>
         <div class="player-icons">
-            <i class="fa-regular fa-heart control-button"></i>
+            <i class="fa-regular fa-heart control-button control-text" data-text="Save"></i>
         </div>
+
 
          <div class="player">
             <div class="player-controls">
@@ -153,25 +191,31 @@
                 <img src="assets/player_icon5.png" class="player-control-icon" alt="">
             </div>
             <div class="playback-bar">
-                <span class="curr-time">00:00</span>
+                <span class="time">00:00</span>
                 <input type="range" min="0" max="100" class="progress-bar" step="1">
-                <span class="total-time">3:33</span>
+                <span class="time">3:33</span>
 
             </div>
          </div>
 
          <div class="controls">
             <div class="player-icons">
-                <i class="fa-solid fa-play control-button"></i>
-                <i class="fa-solid fa-microphone control-button"></i>
-                <i class="fa-solid fa-grip-lines control-button"></i>
-                <i class="fa-solid fa-mobile-screen-button control-button"></i>
-                <i class="fa-solid fa-volume-high control-button"></i>
+                <i class="fa-solid fa-play control-button control-text" data-text="Now"></i>
+                <i class="fa-solid fa-microphone control-button control-text" data-text="Lyrics"></i>
+                <i class="fa-solid fa-grip-lines control-button control-text" data-text="Queue"></i>
+                <i class="fa-solid fa-mobile-screen-button control-button control-text" data-text="Connect"></i>
+                <i class="fa-solid fa-volume-high control-button control-text" data-text="Mute"></i>
                 <input type="range" min="0" max="100" class="volume-bar" step="1">
-                <i class="fa-solid fa-laptop control-button"></i>
+                <i class="fa-solid fa-laptop control-button control-text" data-text="Picture" style="margin-right: 1rem; margin-left: 0.7rem;"></i>
 
             </div>
          </div>
+
+
+
+
+
+
         </div>
 
     </div>
