@@ -9,7 +9,5 @@ This music player contains the complete owned-by-her discography of the musician
 
 ![2](https://github.com/tanya21ag/web-player/assets/127618645/1a9d7cd6-c19c-4d6b-a57b-e8a46bc66abb)
 
-![3](https://github.com/tanya21ag/web-player/assets/127618645/a65af810-62d4-4321-a174-88ed3545021a)
-
 ![4](https://github.com/tanya21ag/web-player/assets/127618645/00696804-6954-43ec-bf02-67068f3c602b)
 
