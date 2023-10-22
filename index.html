@@ -32,19 +32,51 @@
                         <a href ="#">Your Library</a>                    
                     </div>
                     <div class="icons">
-                        <i class="fa-solid fa-plus"></i>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        <i class="fa-solid fa-plus control-text space" data-text="Create"></i>
+                        <i class="fa-solid fa-arrow-right control-text" data-text="Show" ></i>
                     </div>
                 </div>
+
                 <div class="lib-box">
-                    <div class="box">
-                        <p class="box-p1">Create your first playlist</p>
-                        <p class="box-p2">It's easy, we'll help you</p>
-                        <button class="badge">Create playlist</button>
-                    </div>
+                        <div class="recents">
+                        <div class="recent-box">
+                        <div class="recent-art">
+                            <img src="assets/1989.jpg" alt="Album Cover">
+                        </div>
+                        <div class="recent-info">
+                            <p class="recent-title">1989 (Taylor's Version)</p>
+                            <p class="recent-artist">Album &bull; 21 songs</p>
+                        </div>
+            </div>
+            <div class="recent-box">
+                <div class="recent-art">
+                    <img src="assets/speak.jpg" alt="Album Cover">
+                </div>
+                <div class="recent-info">
+                    <p class="recent-title">Speak Now (Taylor's Version) </p>
+                    <p class="recent-artist">Album &bull; 22 songs</p>
+                </div>
+            </div>
+            <div class="recent-box">
+                <div class="recent-art">
+                    <img src="assets/fearless.jpg" alt="Album Cover">
+                </div>
+                <div class="recent-info">
+                    <p class="recent-title">Fearless (Taylor's Version)</p>
+                    <p class="recent-artist">Album &bull; 26 songs</p>
+                </div>
+            </div>
+
+            <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
         <div class="main-content">
             <div class="sticky-nav">
@@ -53,7 +85,7 @@
                     <div class="icon-wrapper">
                         <img src="./assets/backward_icon.png" class="icon icon-first">
                     </div>
-                    <div class="icon-wrapper">
+                    <div class="icon-wrapper control-text" data-text="Forward">
                         <img src="./assets/forward_icon.png" class="icon icon-second">
                     </div>
                 </div>
@@ -62,12 +94,19 @@
                 <div class="sticky-nav-options">
                     <p class="badge nav-item hide">FAQ</p>
                     <p class="badge nav-item hide">Explore</p>
-                    <p class="badge nav-item hide" style="margin-right: 3rem;">About</p>
-                    <i class="fa-regular fa-user nav-item"></i>
+                    <p class="badge nav-item hide" style="margin-right: 2rem;">About</p>
+
+                    <div class="icon-container control-text" data-text="Profile">
+                        <i class="fa-regular fa-user nav-item"></i>
+                      </div>
+                      
+
                 </div>
             </div> 
 
-                <h2 class="headings"><a href="#">Jump back in</a></h2>
+                <h2 class="headings">
+                    <a href="#">Jump back in</a>
+                </h2>
                 <div class="cards-container">
                     <div class="card">
                         <img class="card-img" src="./assets/red.jpg" alt="">
@@ -93,11 +132,12 @@
                         <p class="card-info">Taylor Swift</p>
                     </div>
 
-                    
 
                 </div>
 
-                    <h2 class="headings">Playlists by Swifties</h2>
+                    <h2 class="headings">
+                        <a href="#">Playlists by Swifties</a>
+                        </h2>
                     <div class="cards-container">
                     <div class="card">
                         <img class="card-img" src="./assets/pl6.jpg" alt="">
@@ -125,7 +165,9 @@
                     </div>
                 </div>
 
-                <h2 class="headings">Charts</h2>
+                <h2 class="headings">
+                    <a href="#">Charts</a>
+                </h2>
                     <div class="cards-container">
                         <div class="card">
                             <img class="card-img" src="./assets/mix2.jpg" alt="">
@@ -139,7 +181,9 @@
                     </div>
                     </div>
 
-                <h2 class="headings">Based on your recent listening</h2>
+                <h2 class="headings">
+                    <a href="#">Based on your recent listening</a>
+                </h2>
                 <div class="cards-container">
                     <div class="card">
                         <img class="card-img" src="./assets/mix1.jpg" alt="">
@@ -174,8 +218,8 @@
             <img src="assets/album_img.jpg" alt="Album Cover">
         </div>
         <div class="song-info">
-            <p class="song-title">august</p>
-            <p class="artist">Taylor Swift</p>
+            <p class="song-title"><a href="#">august</a></p>
+            <p class="artist"><a href="#">Taylor Swift</a></p>
         </div>
         <div class="player-icons">
             <i class="fa-regular fa-heart control-button control-text" data-text="Save"></i>
