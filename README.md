@@ -4,8 +4,11 @@
 This music player contains the complete owned-by-her discography of the musician, Taylor Swift, including albums and fan-created playlists. </p>
 
 ## Screenshots
-![1](https://github.com/tanya21ag/web-player/assets/127618645/67284985-ce0c-46e3-940d-c2704e10ed06)
+![1](https://github.com/tanya21ag/web-player/assets/127618645/4076f0ba-dc4d-4932-8bc3-74b122651866)
 
-![2](https://github.com/tanya21ag/web-player/assets/127618645/e45729bd-6f41-4590-bb8a-9f1883b4dfd7)
+![2](https://github.com/tanya21ag/web-player/assets/127618645/1a9d7cd6-c19c-4d6b-a57b-e8a46bc66abb)
 
-![3](https://github.com/tanya21ag/web-player/assets/127618645/1f31700a-4cd9-4bd0-b150-5529b3ceacac)
+![3](https://github.com/tanya21ag/web-player/assets/127618645/a65af810-62d4-4321-a174-88ed3545021a)
+
+![4](https://github.com/tanya21ag/web-player/assets/127618645/00696804-6954-43ec-bf02-67068f3c602b)
+
