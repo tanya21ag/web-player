@@ -1,7 +1,5 @@
 # Swiftify - Web Player for Swifties
-<p>Swiftify is a Spotify themed web player built using HTML, CSS, and JavaScript. 
-  
-This music player contains the complete owned-by-her discography of the musician, Taylor Swift, including albums and fan-created playlists. </p>
+<p>Swiftify is a Spotify themed web music player for Taylor Swift fans to stream re-recorded music following the dispute with Swift’s old music label. It contains the complete owned-by-her discography of the musician, including albums and fan-created playlists. </p>
 
 ## Screenshots
 ### Home
